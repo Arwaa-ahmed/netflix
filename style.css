@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(./netflix.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Roboto', sans-serif;
+    left: 0;
+    top: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0,.5);
+  
+}
+*{
+    box-sizing: border-box;
+
+}
+h4{
+    position: absolute;
+    left: 10px;
+    top: 1px;
+}
+#par{
+    color: red;
+    font-size: 40px;
+    font-weight: 100;
+}
+#container{
+    position:absolute;
+    background: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 410px;
+    padding: 70px;
+    background: rgba(0, 0, 0, 0.77);
+}
+#container h3{
+    color: aliceblue;
+    font-size: 30px;
+}
+#container #inp button{
+    display: block;
+    margin: 10px;
+    width: 100%;
+}
+/* #container h3{
+    position:absolute;
+    left: 0;
+    top: 0;
+    padding: 10px;
+    margin: 5px;
+} */
+#container #email{
+    margin: 10px;
+    padding: 10px;
+    width: 100%;
+    background: rgb(81, 77, 77);
+    border: none;
+    color: rgb(193, 195, 196);
+    height: 45px;
+    border-radius: 5px;
+}
+#container button{
+    height: 45px;
+    font-size: 15px;
+    background: red;
+    color: aliceblue;
+    border-radius: 5px;
+    border: none;
+}
+#remember{
+    color:rgb(193, 195, 196) ;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+#remember a{
+    text-decoration: none;
+    color:rgb(193, 195, 196) ;
+}
+#remember #rem input:checked{
+    background: aliceblue;
+}
+.pra{
+    color: rgb(193, 195, 196);
+    width: 300px;
+}
+.pra p a{
+    color: aliceblue;
+    text-decoration: none;
+}
